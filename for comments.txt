@@ -1,0 +1,22 @@
+Julia Tverdokhlib, [16.04.20 11:33]
+Доброе утро! по 3 заданию можно немного проще. 
+for(i=minValue; i<=maxValue; i=i+3) {console.log(i);} 
+
+и по 9 заданию где простое число можно например поиграться с флагами
+
+let n=prompt();
+let i, flag=false;
+if(n==1) flag=true;
+for (i=2; i<n; i++){
+if(n%i == 0) {
+flag=false;
+break;
+}
+else{
+flag=true;
+break;
+}
+}
+
+if (flag==true) alert('prostoe');
+else alert('neprostoe');
